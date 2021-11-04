@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js嵌入页面</title>
+    <style>
+        .button {
+            background: #65bd2b;
+            height: 100px;
+            width: 200px;
+        }
+    </style>
+
+<!--    script标签嵌入body和head相较来说，放在head时会先执行，当浏览器从上往下加载到body里的script时才会执行-->
+    <script type="text/javascript">
+        alert('999999')
+    </script>
+
+    <script type="text/javascript" src="js嵌入方式.js"></script>
+<body>
+<!--通过行间直接嵌入js代码-->
+<!--onlick是一个点击事件，点击页面元素后会触发后面的js代码-->
+<div class="button" onclick="alert('ok!');">展示js如何嵌入html</div>
+
+<!--通过script标签嵌入html-->
+<script type="text/javascript">
+    alert('000000')
+</script>
+
+</body>
+</html>

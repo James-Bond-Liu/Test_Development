@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .menu1 {
+        height:100px;
+        background:green;
+        }
+    </style>
+<!--    外联式，将css样式文件单独写在外面，通过link链接进来。-->
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+<!--内联式使用css-->
+<div style="height:100px;background:red">白日依山尽</div>
+<!--嵌入式使用css，在head中，通过指定class的值为menu定义样式表-->
+<div class="menu1">黄河入海流</div>
+<div class="menu2">欲穷千里目</div>
+</body>
+</html>

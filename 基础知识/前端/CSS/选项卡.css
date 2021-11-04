@@ -1,0 +1,41 @@
+.box{
+    height: 60px;
+    margin: 20px auto 0 30px;
+}
+.menu li{
+    margin-right: 10px;
+    width: 150px;
+    font: normal 18px/60px "Microsoft YaHei UI";
+    float: left;
+    text-align: center;
+}
+.menu .cur{
+    background: #65bd2b;
+}
+.content{
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+}
+.content div{
+    background: #e3e2ed;
+    height: 500px;
+    width: 100%;
+    display: none;
+}
+.content .active{
+    display: block;
+
+}
+.tables tr{
+    height: 35px;
+    border: solid 2px #0033cc;
+}
+.tables th{
+    height: 35px;
+    border: solid 2px #0033cc;
+}
+.tables input{
+    width: 90%;
+    line-height: 40px;
+}

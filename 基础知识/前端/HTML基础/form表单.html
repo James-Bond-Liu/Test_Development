@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html表单</title>
+</head>
+<body>
+<form action="" method="get">
+    <label for="username">邮箱账号</label>
+<!--    label两个作用，一是给表单框添加备注提示信息，二是用来将表单框备注和表单框本身通过id关联起来-->
+    <input type="text" name="user" id="username"><br>
+    <label for="">昵称</label>
+    <input type="text" name="name"><br>
+    <label for="">密码</label>
+    <input type="text" name="pwd1"><br>
+    <label for="">确认密码</label>
+    <input type="text" name="pwd2"><br>
+    <label for="">性别</label>
+    <input type="radio" name="gender" value="男">男
+    <input type="radio" name="gender" value = "女">女<br>
+<!--    性别单选框，对于这种选项框，不需要输入数据而是选择数据的标签，应该写html时就将选中框的key和值写好即value-->
+    <label for="">爱好</label>
+    <input type="checkbox" name="hobby" value="TV">看电视
+    <input type="checkbox" name="hobby" value="swimming">游泳<br>
+<!--    下拉框-->
+    <label for="">生日</label>
+    <select name="y" id="y">
+        <option value="1995">1995</option>
+        <option value="1996">1996</option>
+        <option value="1997">1997</option>
+        <option value="1998">1998</option>
+    </select>年
+<!--    select 标签中的name即提交数据时的参数名，option标签中的value值即提交数据时的参数值-->
+    <select name="m" id="m">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>月
+    <select name="d" id="d">
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>日 <br>
+    <label for="">详细地址</label>
+    <textarea name="address" id="" cols="30" rows="10"></textarea>
+    <!--    文本输入框-->
+
+    <input type="hidden" name="token" value="123456"> <br>
+<!--    隐藏表单-->
+    <input type="reset" value='重置按钮'> <br>
+    <input type="button" value="普通按钮"> <br>
+<!--    按钮的value为按钮上的提示信息-->
+    <input type="file" name="text"> <br>
+    <input type="submit" value="提交">
+</form>
+
+</body>
+</html>

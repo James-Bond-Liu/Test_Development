@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="CSS/reset.css" type="text/css">
+    <script type="text/javascript" src="JavaScript/jQuery/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+<!--    <script>-->
+<!--        $(function (){-->
+<!--            $('#add').click(function (){-->
+<!--                $('.alter_add').addClass('show');-->
+<!--            });-->
+<!--            $()-->
+<!--        })-->
+<!--    </script>-->
+
+</head>
+<body>
+<!--顶部菜单显示条-->
+<div class="top_menu">
+    <div class="title">自动化测试平台</div>
+    <div class="menu_list">
+        <ul>
+            <a href=><li>首&nbsp&nbsp&nbsp&nbsp页</li></a>
+            <a href=><li>接口列表</li></a>
+            <a href=><li>用例列表</li></a>
+            <a href=><li>套件列表</li></a>
+            <a href=><li>测试报告</li></a>
+        </ul>
+    </div>
+    <div class="top_user">
+        <a href="">注销用户</a>
+    </div>
+</div>
+
+<!--侧边菜单显示条-->
+
+<div class="left_menu">
+    <div class="left_title">
+        项目管理
+    </div>
+    <div class="left_menu_list">
+        <ul>
+            <li>
+                <h3>接口管理</h3>
+                <ul class="hide">
+                    <li><a href="">添加接口</a></li>
+                    <li><a href="">添加接口</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3>用例管理</h3>
+                <ul class="hide">
+                    <li><a href="">添加接口</a></li>
+                    <li><a href="">添加接口</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3>测试计划</h3>
+                <ul class="hide">
+                    <li><a href="">添加接口</a></li>
+                    <li><a href="">添加接口</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3>测试报告</h3>
+                <ul class="hide">
+                    <li><a href="">添加接口</a></li>
+                    <li><a href="">添加接口</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3>环境管理</h3>
+                <ul class="hide">
+                    <li><a href="">添加接口</a></li>
+                    <li><a href="">添加接口</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<!--主题内容部分-->
+<div class="content">
+    <div class="pro_info">
+        <div class="pro_title">项目  A</div>
+        <p>用例数量：44</p>
+        <p>接口数量：5</p>
+        <div><a href="">删除</a></div>
+
+    </div>
+    <div class="pro_info">
+        <div class="pro_title">项目  A</div>
+        <p>用例数量：44</p>
+        <p>接口数量：5</p>
+        <div><a href="">删除</a></div>
+
+    </div>
+    <div class="pro_info">
+        <div class="pro_title">项目  A</div>
+        <p>用例数量：44</p>
+        <p>接口数量：5</p>
+        <div><a href="">删除</a></div>
+
+    </div>
+    <div class="pro_info">
+        <div class="pro_title">项目  A</div>
+        <p>用例数量：44</p>
+        <p>接口数量：5</p>
+        <div><a href="">删除</a></div>
+
+    </div>
+    <div class="pro_info">
+        <div class="pro_title">项目  A</div>
+        <p>用例数量：44</p>
+        <p>接口数量：5</p>
+        <div><a href="">删除</a></div>
+
+    </div>
+    <div class="pro_info" id="add">
+        <img src="image/two.png" alt="添加项目">
+    </div>
+
+</div>
+
+<!--弹框内容-->
+<div class="back hide">
+    <div class="alter_add">
+        <div class="alter-title">新增项目</div>
+        <div class="alter_quit">
+            <img src="image/three.png" alt="取消按钮">
+        </div>
+        <form action="">
+            <div class="alter_input">
+                <label for="pro_title">项目名称</label>
+                <input type="text" name="title" id="pro_title">
+            </div>
+            <div class="alter_input">
+                <label for="pro_url">项目地址</label>
+                <input type="text" name="title" id="pro_url">
+            </div>
+            <div class="alter_input">
+                <label for="pro_test">测试人员</label>
+                <input type="text" name="title" id="pro_test">
+            </div>
+            <div class="pro_desc">
+                <label for="">项目描述</label>
+                <textarea name="" id="" cols="25" rows="5"></textarea>
+            </div>
+            <div class="pro_tj">
+                <input type="button" class="tj" value="提交">
+            </div>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>
