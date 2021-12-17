@@ -5,7 +5,8 @@
 
 import time
 import requests
-# from queue import Queue
+# from queue import Queue  # 进程内，即线程之间的数据通信
+# from multiprocessing import Queue  # 进程之间的数据通信
 from multiprocessing import Process, Queue
 
 
