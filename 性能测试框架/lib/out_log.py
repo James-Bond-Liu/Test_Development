@@ -9,7 +9,7 @@
 -------------------------------------------------
 """
 import logging
-from conf.project_path import *
+from 性能测试框架.conf.project_path import *
 
 class OutLog(object):
 

@@ -9,8 +9,8 @@
 -------------------------------------------------
 """
 import pymysql
-from lib.out_log import OutLog
-from conf.project_path import *
+from 性能测试框架.lib.out_log import OutLog
+from 性能测试框架.conf.project_path import *
 
 logger = OutLog().out_log()
 class DoMysql():
@@ -79,7 +79,7 @@ class DoMysql():
     #         raise e
 
 if __name__ == '__main__':
-    from lib.read_config import ReadConfig
+    from 性能测试框架.lib.read_config import ReadConfig
     con = ReadConfig().readconfig('MYSQL_DB', 'uap_2c')
     sql = 'select customer_no from nbp_customer_profile where login_account = "test003";'
     sql1 = 'select count(*) from nbp_customer_profile where login_account = "test003";'

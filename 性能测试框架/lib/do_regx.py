@@ -10,7 +10,7 @@
 -------------------------------------------------
 """
 import re
-from conf.global_data import GlobalData
+from 性能测试框架.conf.global_data import GlobalData
 
 class DoRegx():
     def do_regx(self, s):

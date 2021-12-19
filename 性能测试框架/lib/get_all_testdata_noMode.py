@@ -15,9 +15,9 @@
 """
 from openpyxl import load_workbook
 import pandas as pd
-from conf.project_path import *
-from lib.out_log import OutLog
-from lib.read_config import ReadConfig
+from 性能测试框架.conf.project_path import *
+from 性能测试框架.lib.out_log import OutLog
+from 性能测试框架.lib.read_config import ReadConfig
 
 
 logger = OutLog().out_log()

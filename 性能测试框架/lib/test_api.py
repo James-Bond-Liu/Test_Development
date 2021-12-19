@@ -11,17 +11,17 @@
 """
 import datetime
 import numpy
-from lib.http_request import HttpRequest
+from 性能测试框架.lib.http_request import HttpRequest
 
-from lib.get_all_testdata33 import GetRequestData
+from 性能测试框架.lib.get_all_testdata import GetRequestData
 import unittest
-from conf.global_data import GlobalData
-from lib.out_log import OutLog
+from 性能测试框架.conf.global_data import GlobalData
+from 性能测试框架.lib.out_log import OutLog
 from ddt import ddt, data
-from lib.do_mysql import DoMysql
-from lib.read_config import ReadConfig
+from 性能测试框架.lib.do_mysql import DoMysql
+from 性能测试框架.lib.read_config import ReadConfig
 import os
-from lib.do_regx import DoRegx
+from 性能测试框架.lib.do_regx import DoRegx
 from time import sleep
 from multiprocessing import Process, Pool, Manager
 

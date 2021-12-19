@@ -9,7 +9,7 @@
 -------------------------------------------------
 """
 import requests
-from lib.out_log import OutLog
+from 性能测试框架.lib.out_log import OutLog
 
 logger = OutLog().out_log()
 class HttpRequest():
