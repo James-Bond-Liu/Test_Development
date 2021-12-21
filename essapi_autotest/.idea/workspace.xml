@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad94b39c-8765-4a94-b6c6-072859a14693" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/conf/性能测试sql脚本.py" beforeDir="false" afterPath="$PROJECT_DIR$/性能测试/性能测试sql脚本.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口测试C端/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口测试C端/get_all_testdata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口测试C端/修改密码.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口测试C端/正常场景.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口测试C端/测试场景.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口测试C端/电站相关/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口测试C端/电站相关/ctrller-manager-powerstation-insert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口测试C端/电站相关/ctrller-manager-powerstation-update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口测试C端/电站相关/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口测试C端/电站相关/test201登录.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口测试C端/设备相关/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口测试C端/设备相关/ctrller-manage_energystorage_insert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/接口测试C端/通过组织代码查询组织.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="21cNXqoDz6mS3MX5CH6y8YYHSAa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\pycharm_project\essapi_autotest\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\pycharm_project\essapi_autotest\性能测试" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="essapi_autotest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="essapi_autotest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad94b39c-8765-4a94-b6c6-072859a14693" name="Default Changelist" comment="" />
+      <created>1638236458377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638236458377</updated>
+    </task>
+    <task id="LOCAL-00001" summary="初次提交代码">
+      <created>1638236722231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638236722231</updated>
+    </task>
+    <task id="LOCAL-00002" summary="toBSN号管理增加、删除接口">
+      <created>1638340472102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638340472102</updated>
+    </task>
+    <task id="LOCAL-00003" summary="验证增加、修改组织-组织代码字段code唯一性">
+      <created>1638521024175</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638521024175</updated>
+    </task>
+    <task id="LOCAL-00004" summary="bug单回归，修改Excel测试数据&#10;增加性能测试数据脚本">
+      <created>1639016727746</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639016727746</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初次提交代码" />
+    <MESSAGE value="toBSN号管理增加、删除接口" />
+    <MESSAGE value="验证增加、修改组织-组织代码字段code唯一性" />
+    <MESSAGE value="bug单回归，修改Excel测试数据&#10;增加性能测试数据脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug单回归，修改Excel测试数据&#10;增加性能测试数据脚本" />
+  </component>
+</project>
