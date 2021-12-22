@@ -36,9 +36,11 @@ def gen():
 g = gen()
 print(g)
 print(next(g))
+# print(next(g))
 print(g.send(100))  # send方法与生成器进行交互，send方法具有next()方法作用同时可以给生成器传值
 g.close()  # 关闭生成器
 g.throw(Exception, 'hello world')  # 在生成器内部主动引发一个异常。（异常类型，异常信息）
+print("*"*100)
 print(next(g))
 
 """homework"""

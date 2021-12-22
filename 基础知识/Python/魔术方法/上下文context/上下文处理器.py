@@ -27,7 +27,7 @@ class MyOpen(object):
 
 
 # a+ 打开一个文件用于读写。如果该文件已存在，文件指针将会放在文件的结尾。文件打开时会是追加模式。如果该文件不存在，创建新文件用于读写。
-with MyOpen('test.txt', 'a+') as f:  # 上下文管理器即MyOpen()实例化的对象
+with MyOpen('../test.txt', 'a+') as f:  # 上下文管理器即MyOpen()实例化的对象
     # 创建写入文件
     f.write("Hello Python!!!")
     print("文件写入成功")
