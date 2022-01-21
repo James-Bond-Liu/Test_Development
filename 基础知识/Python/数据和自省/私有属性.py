@@ -15,7 +15,7 @@ t = Test()
 print(t.attr1)
 print(Test.attr1)
 # 访问单下滑线开头的私有属性
-print(t._attr2)
+print(t._attr2)  # 通过t.attr2是访问不了属性的
 print(Test._attr2)
 # 访问双下划线开头的私有属性
 # print(t.__attr3)  # 报错：'Test' object has no attribute '__attr3'
