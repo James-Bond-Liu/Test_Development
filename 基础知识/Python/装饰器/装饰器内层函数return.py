@@ -13,7 +13,7 @@ def deco(func):
         endTime = time.time()
         msecs = (endTime - startTime) * 1000
         print("time is %d ms" % msecs)
-        return n
+        return n  # 当被装饰函数有return内容时，内层函数必须return被装饰函数的调用结果
 
     return wrapper
 

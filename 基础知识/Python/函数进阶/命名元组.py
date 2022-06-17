@@ -9,18 +9,18 @@
 from collections import namedtuple  # 利用此模块来创建一个命名元组类
 
 # 定义一个命名元组类
-User = namedtuple('User', ['name', 'age', 'id'])  # 第一个参数是命名元组类的类型名称，第二个参数命名元组元素名称。
+User = namedtuple('User', ['name', 'age', 'id'])  # 第一个参数是命名元组类的类型名称，第二个参数命名元组类的属性。
                                                   # 返回对象和类型名称命名一般相同。
-user = User('liu_fei', 26, 12306)  # 实例化命名元组类，括号内位实参。
+user = User('liu_fei', 26, 12306)  # 实例化命名元组类，括号内为实参。
 print(user)
 print( user.name, user.sex, user.age)  # 获取实例的属性，即通过命名元组元素名称获取元素具体值
 print(user.name, user.id)  # 获取命名元组元素的方式
 
 # 命名元组类的属性和方法
 # 类属性 _fields：返回这个命名元组类的所有元素的名称
-# 类方法 _make(iterable)：接受一个可迭代对象来生产这个类的实例
+# 类方法 _make(iterable)：接受一个可迭代对象来生产这个命名元组类的实例
 User._make(['zhangjing', 18, 110])
-print(User._fields)
+print(User._fields)  # name age id
 
 """
 命名元组实例的方法
@@ -31,7 +31,7 @@ print(User._fields)
 user = user._replace(age=22)
 
 # 使用 _asdict()函数把 User对象转换成字典
-print( user._asdict() )
+print(user._asdict())  # {'name': 'liufei   ', 'year': 18, 'id': 110}
 
 
 """把字典或列表转换为命名元组"""

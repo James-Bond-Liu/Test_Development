@@ -44,7 +44,7 @@ def outer(a):
     def inner():  # inner是内函数
         # 内函数中想修改闭包变量
         # 方法1 nonlocal关键字声明
-        nonlocal b
+        nonlocal b  # nonlocal用于引用外层函数局部变量的声明。
         b += 1
         # 方法二，把闭包变量修改成可变数据类型 比如列表
         c[0] += 1

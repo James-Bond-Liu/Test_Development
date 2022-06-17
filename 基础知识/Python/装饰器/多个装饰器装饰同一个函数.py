@@ -17,10 +17,10 @@ def deco1(func):
 
 def deco2(func):
     print('这是第二个装饰器')
-    users = {'name':'panda', 'pwd':123, 'token':'False' }
+    users = {'name':'panda', 'pwd':123, 'token':'False'}
     def fun2(*args, **kwargs):
         print('--------start222--------')
-        if not users['token']==False:
+        if not users['token']==False:  # not与逻辑判断句if连用，代表not后面的表达式为False的时候，执行冒号后面的语句,None, False, 空字符串"", 0, 空列表[], 空字典{}, 空元组()都相当于 False
             username = input('请输入账号：')
             password = int(input('请输入密码：'))
             if username == users['name'] and password == users['pwd']:

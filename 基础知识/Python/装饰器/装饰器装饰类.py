@@ -6,7 +6,7 @@
 def f1(func):
     def fun(*args, **kwargs):
         print('这是一个装饰类的装饰器')
-        return func(*args, **kwargs)  # 装饰器用来装饰类时，一定必须将被装饰的类返回出来。
+        return func(*args, **kwargs)  # 装饰器用来装饰类时，一定必须将被装饰的类return返回出来。
 
     return fun
 

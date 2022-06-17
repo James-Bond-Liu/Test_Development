@@ -6,10 +6,10 @@
 class MyTest(object):
     instance = None
 
-    def __new__(cls, *args, **kwargs):  # cls代表类本身
-        if not cls.instance:
-            cls.instance = object.__new__(cls)
-            return cls.instance
+    def __new__(cls, *args, **kwargs):  # cls代表类本身即MyTest
+        if not cls.instance:  # not和if判断语句组合使用，只有当not后面的语句为False时，冒号后面的语句体才会执行
+            cls.instance = object.__new__(cls)  # 调用父类方法创建实例
+            return cls.instance  # 调用类属性
         else:
             return cls.instance
 

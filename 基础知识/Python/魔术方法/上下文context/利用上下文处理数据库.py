@@ -36,7 +36,6 @@ if __name__ == "__main__":
 通过contextlib模块来构造上下文管理器，进行处理数据库
 """
 
-
 from contextlib import contextmanager
 
 class Database(object):
